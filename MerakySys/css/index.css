@@ -1,0 +1,265 @@
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#00b0f8, #2060b0);
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.searchClientInput {
+    width: 100%;
+    height: 5%;
+    background-color: lightblue;
+    box-shadow: 0px 1px 2px gray;
+}
+
+.searchClientInput input {
+    position: relative;
+    margin: 5px;
+    margin-right: 10px;
+    float: right;
+}
+
+
+/*.client {
+    position: relative;
+    float: right;
+    width: 100%;
+    height: 50%;
+    background-color: blue;
+}*/
+
+#clientDeviceTables {
+    position: relative;
+    float: right;
+    margin-top: 5px;
+    width: 40%;
+    height: 94%;
+}
+
+#test {
+    height: 50%;
+    overflow-y: auto;
+}
+
+#test table {
+    width: 98.5%;
+    margin-top: 1%;
+    margin-right: 10px;
+    margin-left: 5px;
+    border: 1px;
+    /*border-bottom: 1px solid #ddd;
+    border-left: 1px solid #E1EEF4;*/
+    border-collapse: collapse;
+}
+
+#test table th {
+    font-size: 12px;
+    text-align: center;
+    background: -moz-linear-gradient( center top, #006699 5%, #00557F 100%);
+}
+
+#test td {
+    text-align: center;
+}
+
+#test tr:nth-child(even) {
+    background-color: #00d2ff;
+}
+
+#test tr:hover {
+    text-decoration: none;
+    /*background-color: #006655;*/
+    background: -moz-linear-gradient( center bottom, #006699 5%, #00557F 100%);
+    color: #FFFFFF;
+}
+
+#test tr {
+    color: white;
+}
+
+#deviceTable {
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+#deviceTable table {
+    width: 98.5%;
+    margin-top: 1%;
+    margin-right: 10px;
+    margin-left: 5px;
+    border: 1px;
+    color: white;
+    /*border-bottom: 1px solid #ddd;
+    border-left: 1px solid #E1EEF4;*/
+    border-collapse: collapse;
+}
+
+#deviceTable table th {
+    font-size: 12px;
+    text-align: center;
+    background: -moz-linear-gradient( center top, #006699 5%, #00557F 100%);
+}
+
+#deviceTable td {
+    text-align: center;
+}
+
+#deviceTable tr:nth-child(even) {
+    background-color: #00d2ff;
+}
+
+#deviceTable tr:hover {
+    text-decoration: none;
+    /*background-color: #006655;*/
+    background: -moz-linear-gradient( center bottom, #006699 5%, #00557F 100%);
+    color: #FFFFFF;
+}
+
+#tedeviceTablest tr {
+    color: white;
+}
+
+.leftSide {
+    position: fixed;
+    box-shadow: 0px 1px 3px black;
+    background-color: black;
+    margin-top: 2.5%;
+    width: 12%;
+    height: 100%;
+    /*background: -moz-linear-gradient( center top, #006699 5%, #00557F 100%);*/
+    background: -moz-linear-gradient( center top, #232526 3%, #434343 100%);
+}
+
+.leftSide ul {
+    position: relative;
+    margin-top: 0px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+#buttonLeft1 {
+    position: relative;
+    width: 100%;
+    height: 25%;
+    background: linear-gradient(to right, #dce35b, #45b649)
+}
+
+#buttonLeft1 img {
+    /*start center content*/
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    /*end center content*/
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    box-shadow: 1px 0px 2px black;
+}
+
+#buttonLeft2 {
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+    height: 6%;
+    background: -moz-linear-gradient(to right, #74ebd5, #acb6e5);
+    color: #333333;
+    text-align: center;
+}
+
+#insertClientDiv {
+    margin-top: 6px;
+    margin-left: 13%;
+    min-width: 45%;
+    min-height: 24%;
+    max-width: 42%;
+    max-height: 19%;
+    padding: 10px;
+    background-color: lightskyblue;
+    box-shadow: 0px 1px 5px #222222;
+}
+
+#insertClientDiv label {
+    float: left;
+    clear: left;
+    width: 70px;
+    color: white;
+    margin: 10px;
+}
+
+#insertClientDiv input {
+    float: left;
+    margin: 10px;
+}
+
+#addDevice {
+    margin-top: 10px;
+    margin-left: 13%;
+    min-width: 40%;
+    min-height: 62%;
+    max-width: 45%;
+    max-height: 62%;
+    padding: 10px;
+    background-color: lightskyblue;
+    box-shadow: 0px 1px 5px #222222;
+}
+
+#addDevice label {
+    margin: 20px;
+    margin-left: 20px;
+    color: #434343;
+    /*position: relative;
+    float: left;
+    clear: left;
+    width: 50px;
+    margin: 10px;*/
+}
+
+#addDevice input {
+    margin-top: 8px;
+    margin-right: 20px;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 1px 1px 3px gray;
+    /* position: relative;
+    float: left;
+    margin: 10px;*/
+}
+
+#buttonAddDevice {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 0px;
+    color: white;
+    position: relative;
+    margin-top: -13px;
+    float: right;
+    margin-right: 20px;
+    min-width: 12%;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 0px 1px gray;
+    background: -moz-linear-gradient( center bottom, #006699 5%, #0358fF 100%);
+    /* background: -moz-linear-gradient(center top, #56af2f, #a8e063);*/
+}
+
+#buttonAddDevice:hover {
+    background: -moz-linear-gradient(center bottom, #0575e6, #021b79);
+}
+
+#addDevice textarea {
+    position: relative;
+    border-radius: 2px;
+    border: none;
+    margin-top: 15px;
+    width: 100%;
+    box-shadow: 1px 1px 3px black;
+}
